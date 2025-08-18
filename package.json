@@ -1,12 +1,9 @@
 {
-  {
   "scripts": {
     "lint": "eslint .",
     "test": "jest --ci",
     "build": "mkdir -p dist && cp -r src dist"
-  }
-}
-
+  },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@types/jest": "^30.0.0",
